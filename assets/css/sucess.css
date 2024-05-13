@@ -1,0 +1,23 @@
+.sucess {
+    transform: translateX(100%);
+    display: none;
+    top: 0;
+    padding: 27px;
+    margin-top: 10%;
+}
+.sucess .imgIcon {
+    width: 20%;
+}
+.sucessTitle {
+    font-size: 2.2rem;
+    margin: 30px auto;
+}
+.attribution {
+    margin-top: 120px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: bold;
+}

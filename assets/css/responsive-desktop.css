@@ -1,0 +1,76 @@
+@media (min-width: 500px) {
+    body {
+        background-color: hsl(235, 18%, 26%);
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+    }
+    .first-img {
+        display: none;
+    }
+    .content-subscribe h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .content-subscribe p {
+        padding: 5px 0;
+    }
+    .sign-up {
+        max-width: 800px;
+        max-height: 600px;
+        border-radius: 20px;
+        position: static;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        box-shadow: 0px 17px 22px -1px rgba(0,0,0,0.74);
+    }
+    .content-subscribe {
+        padding: 40px 20px 40px 40px;
+    }
+    img {
+        object-position: 0;
+        position: relative;
+    }
+    .second-img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding: 25px;
+        object-fit: cover;
+    }
+    .spanSection label {
+        margin-bottom: 10px;
+    }
+    #subscribe {
+        margin-top: 15px;
+    }
+    .sucess {
+        position: absolute;
+        margin: 0;
+        max-width: 430px;
+        max-height: 400px;
+        border-radius: 20px;
+        background-color: white;
+        padding: 30px;
+        top: 25%;
+        box-shadow: 0px 17px 22px -1px rgba(0,0,0,0.74);
+    }
+    .sucess .imgIcon {
+        width: 12%;
+    }
+    .sucessTitle {
+        margin: 10px auto;
+    }
+    .attribution {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 700px) {
+    .content-subscribe h1 {
+        font-size: 2.8rem;
+    }
+}

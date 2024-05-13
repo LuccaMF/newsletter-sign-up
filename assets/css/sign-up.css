@@ -1,0 +1,99 @@
+@import url(reset.css);
+.sign-up {
+    transform: translateX(0%);
+    transition: transform 1s ease;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+}
+.second-img {
+    display: none;
+}
+.content-subscribe {
+    padding: 50% 27px;
+    line-height: 1.4;
+}
+img {
+    width: 100%;
+    object-position: 0 -130px;
+    position: absolute;
+}
+h1 {
+    font-size: 2.5rem;
+    color: hsl(234, 29%, 20%);
+}
+.content-subscribe p {
+    padding: 10px 0;
+}
+ul {
+    padding: 0;
+    margin: 10px 0;
+}
+li {
+    padding: 0;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 20px;
+}
+li:before {
+    content: "";
+    background-image: url(../images/icon-list.svg);
+    background-size: cover;
+    width: 21px;
+    height: 21px;
+}
+.spanSection label {
+    font-size: 0.8rem;
+    color: hsl(234, 29%, 20%);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.form p{
+    font-size: .9rem;
+    font-weight: bolder;
+    color: hsl(234, 29%, 20%);
+    padding-bottom: 10px;
+}
+#email {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 1px solid hsl(0, 0%, 52%);
+    outline: none;
+}
+#subscribe {
+    width: 100%;
+    height: 3.5rem;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
+.spanSection {
+    display: flex;
+    justify-content: space-between;
+}
+.span-required {
+    margin: 20px 0 0 1px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: none;
+    color: #e63636;
+}
+#subscribe:hover, #subscribe:focus {
+    background: rgba(250,5,144,1);
+    background: -moz-linear-gradient(left, rgba(250,5,144,1) 0%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,5,144,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(250,5,144,1) 0%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(250,5,144,1) 0%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(250,5,144,1) 0%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(250,5,144,1) 0%, rgba(240,47,23,1) 100%);
+    -webkit-box-shadow: 0px 42px 66px -6px rgba(255,98,87,1);
+    -moz-box-shadow: 0px 42px 66px -6px rgba(255,98,87,1);
+    box-shadow: 0px 42px 66px -6px rgba(255,98,87,1);
+}
